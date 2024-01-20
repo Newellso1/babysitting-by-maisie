@@ -1,10 +1,10 @@
 import { Parallax } from "react-scroll-parallax";
 
-export default function About() {
+export default function Testimonials() {
   return (
-    <Parallax speed={20} opacity={[0, 2]}>
-      <div className="page">
-        <h2>About Me</h2>
+    <Parallax speed={40}>
+      <div className="page testimonials">
+        <h2>Testimonials</h2>
         <p>
           With over five years in childcare, I currently work in a vibrant
           toddler room at a local nursery. Certified with a DBS check and first

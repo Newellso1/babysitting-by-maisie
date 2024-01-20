@@ -1,75 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playpen+Sans:wght@200;300;500;600&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Playpen Sans";
   color: #505343;
+}
+
+h2 {
+  font-family: "Ms Madi";
+  font-size: 3.25em;
+  font-weight: 400;
 }
 
 body {
   background-color: #e2d9ca;
-}
-
-h2 {
-  font-weight: 400;
-  font-size: 2em;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .logo-container {
   width: 20em;
   height: 20em;
+  bottom: 4.25em;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid black; */
 }
 
-.logo-container > img {
+.logo-image {
   object-fit: contain;
   position: absolute;
   top: 0;
-  left: 0;
+  /* border: 1px solid black; */
 }
 
 .logo-container > img:nth-child(1) {
-  width: 100%;
-  top: auto;
-  bottom: auto;
+  width: 30em;
+  left: auto;
+  right: auto;
 }
 
 .logo-container > img:nth-child(2) {
-  width: 72%;
-  top: 4.5em;
-  bottom: auto;
-  left: auto;
-  right: auto;
+  width: 22em;
+  top: 4.7em;
 }
 
 .logo-container > img:nth-child(3) {
-  width: 50%;
-  top: 7em;
-  bottom: auto;
-  left: auto;
-  right: auto;
+  width: 15em;
+  top: 8em;
 }
 
 .logo-container > img:nth-child(4) {
-  width: 28%;
-  top: 9.75em;
-  bottom: auto;
-  left: 7.5em;
-  right: auto;
+  width: 8em;
+  top: 12em;
+  left: 6.5em;
 }
 
 .logo-container > p {
   font-family: "Ms Madi";
-  font-size: 2.4em;
+  font-size: 3.25em;
+  font-weight: 500;
   text-align: center;
+  line-height: 1.1em;
   position: absolute;
-  top: 6.9em;
+  top: 7.35em;
   rotate: -2.5deg;
   width: 6em;
   color: #505343;
@@ -85,10 +82,33 @@ h2 {
 
 /* About Page */
 
-.about-page {
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: #ccc3b3;
+  box-shadow: 0 -5em 1em 3em #ccc3b3;
+  padding-bottom: 10em;
+}
+
+.page > p {
+  max-width: 30em;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "playpen sans";
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  border: 1px solid;
+}
+
+.testimonials {
+  background-color: #b6ad9d;
+  box-shadow: 0 -5em 2em 5em #b6ad9d;
+  bottom: 15em;
 }
