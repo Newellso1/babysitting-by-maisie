@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playpen+Sans:wght@200;300;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans";
+  color: #505343;
+}
+
+body {
+  background-color: #e2d9ca;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.logo-container {
+  width: 20em;
+  height: 20em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container > img {
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo-container > img:nth-child(1) {
+  width: 100%;
+  top: auto;
+  bottom: auto;
+}
+
+.logo-container > img:nth-child(2) {
+  width: 72%;
+  top: 4.5em;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.logo-container > img:nth-child(3) {
+  width: 50%;
+  top: 7em;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.logo-container > img:nth-child(4) {
+  width: 28%;
+  top: 9.75em;
+  bottom: auto;
+  left: 7.5em;
+  right: auto;
+}
+
+.logo-container > p {
+  font-family: "Ms Madi";
+  font-size: 2.4em;
+  text-align: center;
+  position: absolute;
+  top: 6.9em;
+  rotate: -2.5deg;
+  width: 6em;
+  color: #505343;
+}
+
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Page */
+
+.about-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
