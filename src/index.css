@@ -4,6 +4,25 @@
   margin: 0;
   box-sizing: border-box;
   color: #505343;
+  font-family: "playpen sans";
+}
+
+img {
+  z-index: 1;
+}
+
+ul {
+  z-index: 40;
+}
+
+ul > li {
+  list-style: none;
+  line-height: 2.3em;
+  font-size: 1.2em;
+  opacity: 0.9;
+  width: fit-content;
+  font-weight: 300;
+  text-shadow: 0 0 0.1em #50534344;
 }
 
 h2 {
@@ -29,7 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
+  z-index: 1;
 }
 
 .logo-image {

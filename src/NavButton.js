@@ -1,7 +1,4 @@
-import { useState } from "react";
-
-export default function NavButton() {
-  const [menuButton, setMenuButton] = useState(false);
+export default function NavButton({ menuButton, setMenuButton }) {
   const buttonStyle = {
     width: "4em",
     height: "4em",
@@ -23,6 +20,7 @@ export default function NavButton() {
     top: menuButton ? "0.39em" : "0",
     bottom: "2em",
     transition: "rotate 200ms ease",
+    borderRadius: "0.2em",
   };
 
   const buttonMiddle = {
@@ -31,8 +29,9 @@ export default function NavButton() {
     width: "100%",
     backgroundColor: "#6d715e99",
     position: "absolute",
-    top: "1.5.85em",
+    top: "1.6em",
     transition: "opacity 200ms ease",
+    borderRadius: "0.2em",
   };
 
   const buttonBottom = {
@@ -45,6 +44,7 @@ export default function NavButton() {
     transformOrigin: "bottom left",
     left: menuButton ? "0.79em" : "",
     transition: "rotate 200ms ease",
+    borderRadius: "0.2em",
   };
 
   return (
