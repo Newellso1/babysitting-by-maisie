@@ -17,12 +17,11 @@ ul {
 
 ul > li {
   list-style: none;
-  line-height: 2.3em;
+  line-height: 2.5em;
   font-size: 1.2em;
   opacity: 0.9;
   width: fit-content;
-  font-weight: 300;
-  text-shadow: 0 0 0.1em #50534344;
+  font-weight: 400;
 }
 
 h2 {
@@ -122,4 +121,43 @@ body {
   font-family: "playpen sans";
   font-weight: 300;
   letter-spacing: 0.05em;
+}
+
+/* Testimonials */
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 30em;
+  height: 23em;
+  /* border: 1px solid; */
+  margin: 1em;
+  padding: 1em;
+}
+
+.reviews > p:nth-child(1) {
+  max-width: 22em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-wrap: pretty;
+}
+
+.reviews > p:nth-child(2) {
+  text-align: right;
+  margin: 1em;
+  font-size: 1.25em;
+}
+
+.controls {
+  font-size: 2em;
+  margin: 1.5em 1.5em 3.5em 1.5em;
+  opacity: 0.6;
+  transition: opacity 300ms ease;
+}
+
+.controls:active {
+  opacity: 1;
 }

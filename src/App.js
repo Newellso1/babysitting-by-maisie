@@ -2,6 +2,7 @@ import { useState } from "react";
 import Logo from "./Logo.js";
 import About from "./About.js";
 import Testimonials from "./Testimonials.js";
+import Contact from "./Contact.js";
 import NavButton from "./NavButton.js";
 import NavMenu from "./NavMenu.js";
 
@@ -14,8 +15,9 @@ function App() {
       <div className="landing-page">
         <Logo />
       </div>
-      <About />
+      <About id="About" />
       <Testimonials />
+      <Contact />
     </div>
   );
 }

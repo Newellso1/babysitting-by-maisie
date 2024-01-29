@@ -10,8 +10,8 @@ export default function NavMenu({ menuButton, setMenuButton }) {
   };
 
   const menuBackground = {
-    width: "32em",
-    height: "32em",
+    width: "30em",
+    height: "30em",
     backgroundColor: "#a7a491",
     position: "fixed",
     right: menuButton ? "-15em" : "-33em",
@@ -19,9 +19,9 @@ export default function NavMenu({ menuButton, setMenuButton }) {
     borderRadius: "50%",
     userSelect: menuButton ? "" : "none",
     opacity: menuButton ? "3" : 0,
-    transition: "all 400ms ease",
+    transition: "all 200ms ease",
     zIndex: "5",
-    boxShadow: "0 0 5em 0.5em #a7a491",
+    boxShadow: "0 0 6em 12em #a7a491",
   };
 
   return (

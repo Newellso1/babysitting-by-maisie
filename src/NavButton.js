@@ -5,7 +5,6 @@ export default function NavButton({ menuButton, setMenuButton }) {
     position: "fixed",
     right: "1em",
     top: "1em",
-    borderRadius: "50%",
     zIndex: "10",
   };
 
