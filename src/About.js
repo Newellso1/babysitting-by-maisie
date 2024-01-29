@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="page">
+    <div className="page" id="About">
       <h2>About Me</h2>
       <p>
         With over five years in childcare, I currently work in a vibrant toddler

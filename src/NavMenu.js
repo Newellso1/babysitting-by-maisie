@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function NavMenu({ menuButton, setMenuButton }) {
   const menuStyle = {
     position: "fixed",
@@ -24,13 +26,31 @@ export default function NavMenu({ menuButton, setMenuButton }) {
     boxShadow: "0 0 6em 12em #a7a491",
   };
 
+  const handleClose = () => setMenuButton((open) => !open);
+
   return (
     <div>
       <ul style={menuStyle}>
-        <li>Home</li>
-        <li style={{ marginLeft: "1em" }}>About</li>
-        <li style={{ marginLeft: "2em" }}>Testimonials</li>
-        <li style={{ marginLeft: "5.3em" }}>Contact</li>
+        <li>
+          <Link to="Home" smooth duration={500} onClick={handleClose}>
+            Home
+          </Link>
+        </li>
+        <li style={{ marginLeft: "1em" }}>
+          <Link to="About" smooth duration={500} onClick={handleClose}>
+            About
+          </Link>
+        </li>
+        <li style={{ marginLeft: "2em" }}>
+          <Link to="Testimonials" smooth duration={500} onClick={handleClose}>
+            Testimonials
+          </Link>
+        </li>
+        <li style={{ marginLeft: "5.3em" }}>
+          <Link to="Contact" smooth duration={500} onClick={handleClose}>
+            Contact
+          </Link>
+        </li>
       </ul>
       <div style={menuBackground}></div>
     </div>

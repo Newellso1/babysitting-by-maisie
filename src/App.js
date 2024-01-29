@@ -12,10 +12,10 @@ function App() {
     <div>
       <NavButton menuButton={menuButton} setMenuButton={setMenuButton} />
       <NavMenu menuButton={menuButton} setMenuButton={setMenuButton} />
-      <div className="landing-page">
+      <div className="landing-page" id="Home">
         <Logo />
       </div>
-      <About id="About" />
+      <About />
       <Testimonials />
       <Contact />
     </div>

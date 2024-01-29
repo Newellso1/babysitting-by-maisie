@@ -1,5 +1,3 @@
-import { Parallax } from "react-scroll-parallax";
-
 import LogoLayer1 from "./Assets/Images/Logo/Logo_Layer_1.png";
 import LogoLayer2 from "./Assets/Images/Logo/Logo_Layer_2.png";
 import LogoLayer3 from "./Assets/Images/Logo/Logo_Layer_3.png";

@@ -161,3 +161,30 @@ body {
 .controls:active {
   opacity: 1;
 }
+
+/* contact */
+
+.contact > form {
+  border: 1px solid;
+  max-width: 35em;
+}
+
+.contact > form > .form-top {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.form-input > input {
+  width: 15em;
+  padding: 0.25em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.form-input > input::placeholder {
+  text-align: center;
+  opacity: 0.6;
+}

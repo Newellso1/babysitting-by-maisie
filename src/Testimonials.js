@@ -25,7 +25,7 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="page testimonials">
+    <div className="page testimonials" id="Testimonials">
       <h2>Testimonials</h2>
       <p>
         At consectetur lorem donec massa sapien faucibus et. Interdum
