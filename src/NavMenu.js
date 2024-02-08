@@ -33,22 +33,22 @@ export default function NavMenu({ menuButton, setMenuButton }) {
       <ul style={menuStyle}>
         <li>
           <Link to="Home" smooth duration={500} onClick={handleClose}>
-            Home
+            home
           </Link>
         </li>
         <li style={{ marginLeft: "1em" }}>
           <Link to="About" smooth duration={500} onClick={handleClose}>
-            About
+            about
           </Link>
         </li>
         <li style={{ marginLeft: "2em" }}>
           <Link to="Testimonials" smooth duration={500} onClick={handleClose}>
-            Testimonials
+            testimonials
           </Link>
         </li>
         <li style={{ marginLeft: "5.3em" }}>
           <Link to="Contact" smooth duration={500} onClick={handleClose}>
-            Contact
+            contact
           </Link>
         </li>
       </ul>

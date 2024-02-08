@@ -1,13 +1,4 @@
 export default function NavButton({ menuButton, setMenuButton }) {
-  const buttonStyle = {
-    width: "4em",
-    height: "4em",
-    position: "fixed",
-    right: "1em",
-    top: "1em",
-    zIndex: "10",
-  };
-
   const buttonTop = {
     height: "0.75em",
     width: "100%",
@@ -48,7 +39,10 @@ export default function NavButton({ menuButton, setMenuButton }) {
 
   return (
     <div>
-      <div style={buttonStyle} onClick={() => setMenuButton((open) => !open)}>
+      <div
+        className="button-style"
+        onClick={() => setMenuButton((open) => !open)}
+      >
         <div style={buttonTop}></div>
         <div style={buttonMiddle}></div>
         <div style={buttonBottom}></div>

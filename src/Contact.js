@@ -12,9 +12,22 @@ export default function Contact() {
       </p>
       <form>
         <div className="form-top">
-          <InputField label="Name" placeholder="Name?" type="text" />
-          <InputField label="Email" placeholder="Email?" type="email" />
-          <InputField label="Phone" placeholder="Phone Number?" />
+          <InputField placeholder="Name?" type="text" name="name" id="name" />
+          <InputField
+            placeholder="Email?"
+            type="email"
+            name="email"
+            id="email"
+          />
+          <InputField placeholder="Phone Number?" name="number" id="number" />
+        </div>
+        <div className="form-middle">
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div className="form-bottom">
+          <InputField type="date" name="date" id="date" />
+          <InputField type="time" name="time" id="time" />
+          <button>Submit</button>
         </div>
       </form>
     </div>

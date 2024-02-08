@@ -14,15 +14,3 @@ export default function Logo() {
     </div>
   );
 }
-
-// export default function Logo() {
-//   return (
-//     <div className="logo-container">
-//       <img className="logo-image" src={LogoLayer1} alt="logo layer 1" />
-//       <img className="logo-image" src={LogoLayer2} alt="logo layer 2" />
-//       <img className="logo-image" src={LogoLayer3} alt="logo layer 3" />
-//       <img className="logo-image" src={LogoLayer4} alt="logo layer 4" />
-//       <p>Babysitting by Maisie</p>
-//     </div>
-//   );
-// }
